@@ -6,6 +6,19 @@
     <title>Membuat Form Sederhana</title>
 </head>
 <body>
+    <form>
+        <div>
+            <label>Nama</label> <br>
+            <input name="nama" type="text" placeholder="Masukkan nama">
+        </div>
+
+        <div>
+            <label>Alamat</label> <br>
+            <input name="alamat" type="text" placeholder="Masukkan alamat">
+        </div>
+
+        <button>Submit</button>
+    </form>
 
     <?php # membuka tag PHP
 
